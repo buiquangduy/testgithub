@@ -1,0 +1,199 @@
+@media only screen and (max-width: 750px) {
+    #khungtoanbo{
+	width: 100%;
+	margin: auto;
+	}
+	#slide{
+		display: none;
+	}
+	#menu{
+		width: 100%;
+		height: 35px;
+		background: #7d5f54;
+		float: left;
+		border-radius: 10px;
+		margin-top: 2px;
+	}
+	#menu #trai li{
+		float: left;
+		line-height: 35px;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	#menu #phai li{
+		float: left;
+		line-height: 35px;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	#ft-buttons-slide{
+		margin-top: 25px;
+		position: absolute;
+		top:80px;
+		display: none;
+	}
+	header h3{
+		font-family: Freshman;
+		font-size: 30px;
+		color: #7d5f54;
+		margin-top:15px;
+	}
+	header h4{
+		font-family: MV Boli;
+		font-size: 15px;
+		color: #7d5f54;
+		margin-left: 120px;
+	}
+	#content #content_right{
+		float: left;
+		width: 19%;
+		height: 100%;
+		margin-left: 0.5%;
+		border-radius:20px;
+		background: #fff;
+		border-right:1px solid #CCC;
+	}
+	#menu a{
+		font-size: 13px;
+	}
+	#menu #trai a{
+		border-right:1px solid #221915;
+		padding-right: 10px;
+	}
+	#content_left #tinmoi{
+		font-size: 13px;
+	}
+	#content_left #box #head{
+		height: 30px;
+		background: #7d5f54;
+	}
+	#content_right #box1 #head{
+		height: 30px;
+		background: #7d5f54;
+	}
+	#content_right #box2 #head{
+		height: 30px;
+		background: #7d5f54;
+	}
+	#menu2 a{
+		font-size: 13px;
+	}
+	#content #head{
+		height: 40px;
+	}
+	#content_mid #head p{
+		margin-left: 30px;
+		margin-top: 5px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	#content_mid #noidung #tomtat{
+		color:#251514;
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	header #search{
+		display: none;
+	}
+	#menu a{
+		font-size: 13px;
+		font-weight: bold;
+	}
+	#menu #phai{
+		display: none;
+	}
+	#content #content_left{
+		display: none;
+	}
+	#content #content_mid{
+		width: 70%;
+	}
+	#content #content_right{
+		width: 27%;
+		margin-left: 1%;
+	}
+	#content{
+		height: 750px;
+	}
+	
+	#content_right #box1 #head p{
+		font-size: 13px;
+		margin-left: 3px;
+	}
+	#content_right #box2 #head p{
+		font-size: 13px;
+		margin-left: 20px;
+	}
+	#content_right #box2 ul{
+		margin-left: 10px;
+
+	}
+	#content_right #box2 form #name:hover{
+		border:2px solid #788170;
+	}
+	#content_right #box2 form #pass:hover{
+		border:2px solid #788170;
+	}
+	#content_right #box2 form #pass{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 25px;
+		width: 80%;
+		border-radius: 5px;
+
+	}
+	#content_right #box2 form #nut{
+		background: #788170;
+		border-radius: 10px;
+		width: 40px;
+
+	}
+	#content_right #box2 form{
+		margin-left: 10px;
+	}
+	#menu2 ul li a{
+		padding-left: 10px;
+	}
+	#content_mid #noidung  #images{
+		float: left;
+		width: 40%;
+		height: 40%;
+		margin-right: 5px;
+	}
+	#content_mid #noidung #tomtat{
+	color:#251514;
+	font-size: 13px;
+	padding-right: 5px;
+	}
+	#content #head p{
+		font-size: 15px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	footer #ft{
+		color:#7d5f54;
+	}
+	.menu_bar{
+		display: block;
+	}
+	#menu #trai li{
+		float: none;
+	}
+	#menu nav#trai ul{
+		left: -100%;
+		position: absolute;
+		z-index: 100;
+	}
+	#menu #trai a{
+		border: none;
+	}
+	#menu #trai li{
+		background: #7d5f54;
+	}
+	.btn-menu{
+		margin-left: 10px;
+		padding-top: 20px;
+	}
+}
